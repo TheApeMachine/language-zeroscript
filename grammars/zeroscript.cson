@@ -6,9 +6,9 @@
   {
     'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b'
     'name': 'constant.numeric.zeroscript'
-  },git 
+  },
   {
-    'match': '<-'
+    'match': '(<-|->)'
     'name': 'keyword.zeroscript'
   },
   {
@@ -61,5 +61,16 @@
         ]
       }
     ]
+  },
+  {
+    'begin': '"'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.c'
+    'end': '"'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.c'
+    'name': 'string.quoted.double.include.c'
   }
 ]
