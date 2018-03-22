@@ -1,0 +1,17 @@
+{
+  "name": "language-zeroscript",
+  "version": "0.0.1",
+  "description": "Zeroscript language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theapemachine/language-zeroscript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theapemachine/language-zeroscript/issues"
+  },
+  "license": "MIT"
+}
